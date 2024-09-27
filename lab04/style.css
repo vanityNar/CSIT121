@@ -1,0 +1,19 @@
+body{    
+    background-color: rgb(192, 194, 207);
+    color:rgb(24, 20, 20);
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(174, 235, 53);
+    text-align: center;
+    background-color: #580505;
+    padding: 10px;
+}
+hr{
+    margin: 10px;;
+    border: 20px;
+}
+a{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:darkmagenta;
+}
