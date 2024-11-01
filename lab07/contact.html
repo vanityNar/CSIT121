@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <h1>Welcome to ranking Marvel charecters:</h1>
+        <ul>
+            <li><a href="tierlist.html">Tier List</a></li>
+            <li> <a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <h2>Fill Up The Form Below:</h2>
+    <form class="tierlist">
+        
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+    
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email">
+    
+        <label for="comment">Do you agree with my  Rank? Comment:</label>
+        <textarea id="comment" name="comment"></textarea>
+    
+        <label for="fav-character">Select Your Favorite Character:</label>
+        <select id="fav-character" name="fav-character">
+            <option disabled selected>Select your favorite</option>
+            <option value="iron-man">Iron Man</option>
+            <option value="spider-man">Spider-Man</option>
+            <option value="thor">Thor</option>
+            <option value="hulk">Hulk</option>
+            <option value="captain-marvel">Captain Marvel</option>
+            <option value="captain-america">Captain America</option>
+        </select>
+    
+        <label>Why did you pick this Character explain?</label>
+        <input type="text" id="character" name="character" required>
+    
+        <label>Rate the overall tier list:</label>
+        <input type="radio" id="1-star" name="rating" value="1" >
+        <label for="1-star">1 Star</label>
+        <input type="radio" id="2-stars" name="rating" value="2">
+        <label for="2-stars">2 Stars</label>
+        <input type="radio" id="3-stars" name="rating" value="3">
+        <label for="3-stars">3 Stars</label>
+        <input type="radio" id="4-stars" name="rating" value="4">
+        <label for="4-stars">4 Stars</label>
+        <input type="radio" id="5-stars" name="rating" value="5">
+        <label for="5-stars">5 Stars</label>
+                   
+        <button type="submit">Submit</button>
+    </form>
+    
+</body>
+</html>
