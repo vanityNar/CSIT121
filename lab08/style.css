@@ -1,0 +1,114 @@
+body{    
+    background-color: rgb(192, 194, 207);
+    color:rgb(24, 20, 20);
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(27, 27, 25);
+    text-align: center;
+    padding: 15px;
+    }
+.navbar {
+    background-color: #0c0c0c; 
+    color: #f7f4f4; 
+    font-family: Arial, sans-serif;
+    position: sticky;
+    top: 0;
+}
+.navbar .header {
+    position:sticky;
+    text-align: center;
+    padding: 15px 0;
+    background-color:black;
+  }
+  .navbar ul {
+    list-style-type: none;
+    display:flex;
+    padding:0 ;
+    margin: auto;
+    background-color: #b99a5a;
+    gap: 30px;;
+    font-size: 30px;
+  }
+  .header h1{
+    font-size: 25px;
+  }
+  
+a{
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(248, 248, 248);
+}
+li a:hover{
+    background-color: #5a5c5b;
+    }
+    a:active{
+        
+        color: aqua;
+        font-weight: bold;
+    }
+    a:current{
+        color: rgb(14, 219, 151);
+    }
+    .one{
+        background-color: beige;
+            color:blueviolet;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-size: 2rem;
+            font-weight:bold;
+            font-style:italic;
+            line-height: 1.5;
+            margin-bottom: 1em;
+            word-wrap: break-word;
+    }
+    .two{
+        background-color: rgb(230, 207, 199);
+        color:rgb(92, 15, 192);
+        font-size: 2rem;
+        font-style: italic;
+        font-weight: bold;
+    }
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#ad0977;
+    font-size: 2em;
+    
+}
+#three{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:30px;
+    color:rgb(13, 67, 218);
+}
+ #mount{
+        color: brown;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 30px;
+    }
+    
+
+img{
+    width: 300px;
+    height: 200px;
+}
+section{
+line-height: 2;
+word-wrap: break-word;
+    }
+
+    @media  (max-width:768px){
+        .navbar ul{
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            font-size: 24px;
+        }
+        .navbar ul li {
+            width: 100%;        
+            text-align: center;      
+        }
+        .navbar .header {
+            padding: 10px 0;   
+        }
+    }
+        
+    
