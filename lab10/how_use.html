@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Use of PMI?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Usage of (PMI)</h1>
+            <nav>
+            <ul>
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="why_important.html" class="nav-link">Important</a></li>
+                <li><a href="how_use.html" class="nav-link">Use</a></li>
+                <li><a href="sources.html" class="nav-link">Sources</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>How to Use Payment Method Identifier (PMI)</h2>
+            <p>
+                Payment Method Identifiers(PMIs) are mainly used in web-based payment systems.
+                When you shop online, websites list differnet ways to pay, and each option has a 
+                unique identifier.This helps the website know which paymnet method to use 
+                when you check out, making the payment process quicker and safer.
+            </p>
+            <p>
+                A PMI's job is to clearly identify which payment method is being used, so the transaction goes 
+                to the right place for processing.These identifier can be in differnetforms, like a simple text string or a 
+                URL, depending on the system. This flexibility allows many payment
+                methods, such as credit cards or digital wallets, to work smoothly on a website.
+            </p>
+            <p>
+                For example, if you choose to pay with Apple Pay, the website 
+                will use a PMI like "https//apple.com/pay". when you select Apple pay
+                , this identifirer is sent to the merchant's system, which knows to Use
+                Apple pay's payment process to complet the transaction securely.
+            </p>
+            <pre><code>
+if (paymentMethodValid) {
+  processPayment(paymentMethodPMI);
+}
+            </code></pre>
+        </section>
+    </main>
+    <footer>
+        <p>Payment Method Identifier (PMI) Guide  by @ Nar Thapa</p>
+    </footer>
+   
+</body>
+</html>
