@@ -1,0 +1,107 @@
+body{
+    background-color:rgb(233, 231, 228);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+}
+nav ul{
+list-style: none;
+padding: 0;
+font-size: 2em;
+}
+nav{
+    background-color: rgb(132, 145, 140);
+    padding: 10px;
+    text-decoration: none;
+    
+}
+nav ul li {
+    display:inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: rgb(230, 234, 238);
+    
+}
+h1{
+    background-color: #b83adf73;
+    text-align: center;
+
+}
+table{
+    background-color: antiquewhite;
+    border: 1px solid rgb(138, 15, 62);
+}
+ th{
+    border-bottom: 2px solid#50a517;
+    }
+td{
+    border-bottom: 2px solid gold;
+}
+label {
+     margin: 15px 10px;
+    font-size: 1.1em; 
+}
+
+input, textarea{
+    display: flex;
+    width: 50%; 
+    padding: 10px; 
+    font-size: 1em;
+    margin-bottom: 20px; 
+}
+
+button {
+    padding: 10px 10px; 
+    font-size: 1em; 
+    background-color: #50a517; 
+    color: white; 
+    border:10px;
+}
+h2{
+    background-color: rgb(208, 214, 210);
+    text-align: center;
+    font-size: 2em;
+}
+select{
+    font-size: 1em;
+    width: 50px;
+    }
+    fieldset label{
+        width: 50px;
+    }
+
+    .tierlist {
+        max-width:500px;
+        margin: 20px auto;
+        padding: 20px;
+        border: 1px solid #e4dfdf;
+        border-radius: 8px;
+        background-color: #aaa8a8;
+        }
+    
+    .tierlist label {
+        display:block;
+        margin: 10px 0 5px;
+    }
+    
+    .tierlist input,
+    .tierlist select,
+    .tierlist textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+    }
+    
+    .tierlist button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    .tierlist button:hover {
+        background-color: #4556a0;
+    }
